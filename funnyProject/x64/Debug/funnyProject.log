@@ -1,0 +1,14 @@
+﻿  main.cpp
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c\vs\ctest\funnyProject\funnyProject\src\perlin.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“src/main.cpp”)
+  
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(48,42): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(48,42): warning C4244:         with
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(48,42): warning C4244:         [
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(48,42): warning C4244:             _Ty=short
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(48,42): warning C4244:         ]
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(61,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(92,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\c\vs\ctest\funnyProject\funnyProject\src\main.cpp(104,29): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  funnyProject.vcxproj -> E:\c\vs\ctest\funnyProject\funnyProject\x64\Debug\funnyProject.exe

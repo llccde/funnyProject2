@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SFML-2.6.1\lib\ogg.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-audio.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-audio-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-audio-s.lib" />
+    <Library Include="SFML-2.6.1\lib\flac.lib" />
+    <Library Include="SFML-2.6.1\lib\freetype.lib" />
+    <Library Include="SFML-2.6.1\lib\openal32.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-audio-s-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-graphics.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-graphics-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-graphics-s.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-graphics-s-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-main.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-main-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-network.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-network-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-network-s.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-network-s-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-system.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-system-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-system-s.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-system-s-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-window.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-window-d.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-window-s.lib" />
+    <Library Include="SFML-2.6.1\lib\sfml-window-s-d.lib" />
+    <Library Include="SFML-2.6.1\lib\vorbis.lib" />
+    <Library Include="SFML-2.6.1\lib\vorbisenc.lib" />
+    <Library Include="SFML-2.6.1\lib\vorbisfile.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SFML-2.6.1\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\Graphics\Glsl.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\Graphics\Rect.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\String.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\Thread.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\Utf.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\Vector2.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="SFML-2.6.1\include\SFML\System\Vector3.inl">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\AlResource.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\Export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\Listener.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\Music.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\Sound.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundSource.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio\SoundStream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Color.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Drawable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Font.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Glsl.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Glyph.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Image.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Rect.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Shader.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Shape.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Sprite.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Text.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Texture.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Transform.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Transformable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\Vertex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\VertexBuffer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics\View.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\Export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\Ftp.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\Http.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\IpAddress.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\Packet.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\Socket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\SocketHandle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\SocketSelector.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\TcpListener.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\TcpSocket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network\UdpSocket.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Clock.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Err.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\FileInputStream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\InputStream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Lock.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Mutex.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\NativeActivity.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\NonCopyable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Sleep.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\String.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\ThreadLocal.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Time.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Utf.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Vector2.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System\Vector3.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Clipboard.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\ContextSettings.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Cursor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Event.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Export.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\GlResource.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Joystick.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Keyboard.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Mouse.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Sensor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Touch.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\VideoMode.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Vulkan.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\Window.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\WindowBase.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\WindowHandle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window\WindowStyle.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Audio.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\GpuPreference.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Graphics.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Main.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Network.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\OpenGL.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\System.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SFML-2.6.1\include\SFML\Window.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\perlin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\perlin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
